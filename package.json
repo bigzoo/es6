@@ -1,0 +1,22 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "Learning new stuff in es6",
+  "main": "index.js",
+  "scripts": {
++   "build": "babel src -d lib"
++ },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bigzoo/es6.git"
+  },
+  "author": "bigzoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigzoo/es6/issues"
+  },
+  "homepage": "https://github.com/bigzoo/es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
